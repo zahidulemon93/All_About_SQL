@@ -1,0 +1,34 @@
+ id |   city    |  avg | months 
+----+-----------+------+--------
+  1 |  New-York |   20 |     3   <--- average temperate over the last 3 months
+  2 |  New-York |   19 |     6   <--- average temperate over the last 6 months
+  3 |  New-York |   15 |    12   <--- etc
+  4 |  New-York |   15 |    24
+  5 |    Boston |   13 |     3
+  6 |    Boston |   18 |     8
+  7 |    Boston |   17 |    12
+  8 |    Boston |   16 |    15
+  9 |   Chicago |   12 |     2
+ 10 |   Chicago |   14 |    12
+ 11 |     Miami |   28 |     1
+ 12 |     Miami |   25 |     4
+ 13 |     Miami |   21 |    12
+ 14 |     Miami |   22 |    15
+ 15 |     Miami |   20 |    24
+ 
+ Qustion: city where at least one average has been over 19 degrees
+ 
+ Output : 
+ 
+ 
+ id |   city    |  avg | months 
+----+-----------+------+--------
+  1 |  New-York |   20 |     3  
+  2 |  New-York |   19 |     6  
+  3 |  New-York |   15 |    12  
+  4 |  New-York |   15 |    24  
+ 11 |     Miami |   28 |     1  
+ 12 |     Miami |   25 |     4  
+ 13 |     Miami |   21 |    12  
+ 14 |     Miami |   22 |    15  
+ 15 |     Miami |   20 |    24  
